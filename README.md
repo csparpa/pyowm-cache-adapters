@@ -39,7 +39,7 @@ and change it accordingly to the adapter you need, eg: Memcached adapter:
 ```python
 # Cache provider to be used
 # cache = NullCache()  # <--- comment/remove this line
-from pyowm-memcached-adapter import MemcachedAdapter
+from pyowm_memcached_adapter import MemcachedAdapter
 cache = MemcachedAdapter( [... parameters ...] )
 ```
 
